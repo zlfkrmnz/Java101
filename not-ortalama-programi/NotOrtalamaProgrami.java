@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * @author Zülfükar Minaz
+ * @see <a href="https://app.patika.dev/zlfkr">Patika.dev</a>
+ */
+
 public class NotOrtalamaProgrami {
 
     public static void main(String[] args) {
