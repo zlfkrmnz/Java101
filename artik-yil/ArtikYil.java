@@ -14,7 +14,7 @@ public class ArtikYil {
         System.out.print("Yıl giriniz : ");
          int year = input.nextInt();
 
-         if ((year % 4 == 0) && !(year % 400 == 0)) System.out.println(year + " bir artık yıldır !");
+         if ((year % 4 == 0) && ((year % 400 == 0) || !(year % 100 == 0))) System.out.println(year + " bir artık yıldır !");
          else System.out.println(year + " bir artık yıl değildir!");
     }
 }
